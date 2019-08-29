@@ -1,0 +1,31 @@
+{
+  "name": "components",
+  "version": "0.0.1",
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "storybook:build": "build-storybook -c .storybook"
+  },
+  "dependencies": {
+    "pkg-components": "*",
+    "react": "~16.8.4",
+    "react-native": "0.59.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/polyfill": "^7.4.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.4.0",
+    "@storybook/addon-actions": "^5.1.3",
+    "@storybook/addon-info": "^5.1.3",
+    "@storybook/addon-knobs": "^5.1.3",
+    "@storybook/addon-options": "^5.1.3",
+    "@storybook/addon-storysource": "^5.1.3",
+    "@storybook/addon-viewport": "^5.1.3",
+    "@storybook/react": "^5.1.3",
+    "babel-loader": "^8.0.4",
+    "cache-loader": "^2.0.1",
+    "eslint-import-resolver-alias": "~1.1.1",
+    "react-dom": "~16.8.4",
+    "react-native-web": "^0.11.1"
+  }
+}
